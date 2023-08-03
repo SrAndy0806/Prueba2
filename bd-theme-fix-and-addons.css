@@ -1,0 +1,106 @@
+* {
+   /*if you have Roboto Typefont installed you can use this*/
+   /*font-family: "Roboto Light", serif !important;*/
+   font-family: "Segoe UI Light", serif !important;
+}
+
+.button-1aU9q1{
+    width: 29px !important;
+}
+
+[class*="wordmark-"]{
+    /*Uncomment this 
+    if you dont want the Discord-Logo 
+    in the System Bar*/
+    
+    /*display: none;*/
+}
+
+[class*="titleBar-"]{
+    background-image: linear-gradient(#202225, #202225) !Important;
+    margin-top: 0px !Important;
+    padding-top: 4px !Important;
+}
+
+[class*="winButtonMinMax"]:hover{
+    background-color: var(#202225) !important;
+}
+
+[class*="winButton"]{
+    width: 45px !important;
+     transition: all .3s ease;
+    -webkit-transition-timing-function: ease;
+}
+
+.channels-3g2vYe {
+    width: 72px;
+    min-width: 0;
+    transition: all .9s ease;
+    -webkit-transition-timing-function: ease;
+    overflow: hidden;
+}
+
+.channels-3g2vYe:hover {
+    width: 240px;
+}
+
+.layers, .layer { 
+    background: rgba(0,0,0,.25) !important; 
+}
+
+.member {
+    background: rgba(48,48,48,0.08) !important;
+    transition: background-color 0.5s, box-shadow 0.5s !important;
+}
+
+.avatar-small { 
+     transition: all .5s ease;
+    -webkit-transition-timing-function: ease;
+}
+
+.channel-members .member:hover .avatar-small { 
+    width: 40px; height: 40px; background-size: cover; 
+     transition: all .5s ease;
+    -webkit-transition-timing-function: ease;
+}
+
+.member-status-online {
+    background: rgba(0,255,0,0.08) !important;
+}
+.member-status-online .avatar-small {
+    box-shadow: 2px 0px 10px rgba(0,255,0,0.25),
+        -2px 0px 10px rgba(0,255,0,0.25),
+        0px 2px 10px rgba(0,255,0,0.25),
+        0px -2px 10px rgba(0,255,0,0.25) !important;
+}
+.member-status-idle {
+    background: rgba(255,205,0,0.08) !important;
+}
+.member-status-idle .avatar-small {
+    box-shadow: 2px 0px 10px rgba(255,205,0,0.25),
+        -2px 0px 10px rgba(255,205,0,0.25),
+        0px 2px 10px rgba(255,205,0,0.25),
+        0px -2px 10px rgba(255,205,0,0.25) !important;
+}
+.member-status-dnd {
+    background: rgba(255,0,0,0.08) !important;
+}
+.member-status-dnd .avatar-small {
+    box-shadow: 2px 0px 10px rgba(255,0,0,0.25),
+        -2px 0px 10px rgba(255,0,0,0.25),
+        0px 2px 10px rgba(255,0,0,0.25),
+        0px -2px 10px rgba(255,0,0,0.25) !important;
+}
+.member-status-offline .avatar-small {
+    box-shadow: 2px 0px 10px rgba(48,48,48,0.25),
+        -2px 0px 10px rgba(48,48,48,0.25),
+        0px 2px 10px rgba(48,48,48,0.25),
+        0px -2px 10px rgba(48,48,48,0.25) !important;
+}
+.emoji {
+    transition      : all .9s ease !important;}
+
+.emoji:hover {
+    width           : 100px !important;
+    height          : 100px !important;
+}	

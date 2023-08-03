@@ -1,0 +1,57 @@
+/**
+@name         Transparent Theme
+@namespace    https://betterdiscord.app
+@version      1.0.0
+@description  Transparent theme for BetterDiscord
+@author       Your Name
+@invite       DiscordInviteCode
+@preprocessor css
+==/UserStyle== */
+
+/* Global Variables */
+:root {
+  --background-color: rgba(0, 0, 0, 0.7); /* Fondo transparente */
+  --text-color: #fff; /* Color de texto */
+}
+
+/* Background */
+.app {
+  background-color: var(--background-color) !important;
+}
+
+/* Text Color */
+.theme-dark .markup, .theme-dark .userPopout-4pfAkl {
+  color: var(--text-color) !important;
+}
+
+/* Channel List */
+.theme-dark .wrapper-1BJsBx {
+  background-color: transparent !important;
+}
+
+/* Server List */
+.theme-dark .guilds-1SWlCJ {
+  background-color: transparent !important;
+}
+
+/* Chat Input Box */
+.theme-dark .slateTextArea-1Mkdgw,
+.theme-dark .channelTextArea-1LDbYG {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Member List */
+.theme-dark .membersWrap-2h-GB4 {
+  background-color: transparent !important;
+}
+
+/* User Popout */
+.theme-dark .userPopoutRoot-1gCWith {
+  background-color: var(--background-color) !important;
+}
+
+/* Context Menu */
+.theme-dark .contextMenu-HLZMGh,
+.theme-dark .contextMenu-Sp6yD6 {
+  background-color: var(--background-color) !important;
+}
